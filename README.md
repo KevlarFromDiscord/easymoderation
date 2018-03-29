@@ -1,6 +1,6 @@
 # EasyModeration
 **What is EasyModeration?**  
-  - EasyModeration is a Simple NPM Package that helps you to handle Moderation*on Discord much easier. It supports any Discord Javascript Library that's ready to be used!
+  - EasyModeration is a Simple NPM Package that helps you to handle Moderation Discord much easier. It supports any Discord Javascript Library that's ready to be used!
   
 ## Installing
 **Must have Node 8+**  
