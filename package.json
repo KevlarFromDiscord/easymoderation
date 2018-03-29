@@ -1,0 +1,25 @@
+{
+  "name": "easymoderation",
+  "version": "1.0.0",
+  "description": "EasyModeration is a Simple NPM Package that helps you to handle Moderation Discord much easier. It supports any Discord Javascript Library that's ready to be used!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevlarFromDiscord/easymoderation.git"
+  },
+  "keywords": [
+    "moderation",
+    "discord",
+    "easy",
+    "snekfetch"
+  ],
+  "author": "Kevlar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevlarFromDiscord/easymoderation/issues"
+  },
+  "homepage": "https://github.com/KevlarFromDiscord/easymoderation#readme"
+}
