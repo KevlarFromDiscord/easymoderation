@@ -86,12 +86,12 @@ moderation.ban('My Guild ID', 'Member ID', 7 /* Amount of days delete the user's
 ```
 **Returns a Promise Object**  
 
-**unban()** - Unbans a Banned Member, if not ban, returns a Unknown Ban error
+**unban()** - Unbans a Banned Member, if not banned, returns a Unknown Ban error
 ```js
 const EasyModeration = require('easymoderation');
 const moderation = new EasyModeration('Bot Token');
 
-moderation.ban('My Guild ID', 'Banned Member ID').then(r => {
+moderation.unban('My Guild ID', 'Banned Member ID').then(r => {
 	console.log(r)
 });
 ```
@@ -102,7 +102,7 @@ moderation.ban('My Guild ID', 'Banned Member ID').then(r => {
 const EasyModeration = require('easymoderation');
 const moderation = new EasyModeration('Bot Token');
 
-moderation.ban('My Guild ID', 'Member ID').then(r => {
+moderation.kick('My Guild ID', 'Member ID').then(r => {
 	console.log(r)
 });
 ```
